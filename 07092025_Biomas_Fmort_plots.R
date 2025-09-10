@@ -27,7 +27,7 @@ head(Biomass)
 Biomass_long<- gather(Biomass, species, biomass, american_plaice:thorny_skate)
 Biomass_long<- rename(Biomass_long, year = survey.year)
 
-#Fmort <- read.csv("data/Catches_historical_edit3.csv", sep = ";")
+#Fmort <- read.csv("data/Catches_historical.csv", sep = ";")
 Fmort <- read.csv("data/Fmort_ratio_historical_2025.csv", sep=";")
 head(Fmort)
 Fmort_long<- gather(Fmort, species, Fmort, american_plaice:thorny_skate)

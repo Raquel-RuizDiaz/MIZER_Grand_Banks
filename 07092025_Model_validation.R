@@ -14,7 +14,7 @@ library(patchwork)
 CONFIG <- list(
   # File paths
   BIO_OBS_FILE = "data/biomass_historical.csv",
-  CATCH_OBS_FILE = "data/Catches_historical_edit3.csv",
+  CATCH_OBS_FILE = "data/Catches_historical.csv",
   EFFORT_FILE = "data/Fmort_ratio_historical_2025.csv",
   
   # Output settings
