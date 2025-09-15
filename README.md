@@ -5,7 +5,7 @@ The model explores the ecological consequences of changing the biomass of key sp
 
 ## Contents
 
-**code/** – Scripts to validate the model, assess sensitivity to fishing and perform the simulations.
+**analysis/** – Scripts to validate the model, assess sensitivity to fishing and perform the simulations.
 
 **data/** – Input data used for calibration (where possible)
 
